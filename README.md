@@ -1,7 +1,7 @@
-# Cornell Fintech Club Stock Sentiment Analysis Tool
+# Stock Sentiment Portfolio Manager
 
 ## Introduction
-Welcome to the Cornell Fintech Club Stock Sentiment Analysis Tool! This tool is built using the React stack and Yarn package manager to help you analyze stock sentiment using various data sources.
+This tool is built using the React stack and Yarn package manager to help you analyze stock sentiment using various data sources.
 
 ## Getting Started
 To get started with this project, follow these steps:
@@ -43,11 +43,3 @@ The project is structured as follows:
 
 ### 3. Historical Analysis
 - View historical sentiment data to identify trends and patterns over time.
-
-## Contributors
-- TPM/PMs: Emna, Diego, Kevin
-- BAs: Goretti, Farhan, Nikhil
-- SWEs: Kevin, Eddie, Aneesh, Bhuwan
-
-
-Thank you for using the Cornell Fintech Club Stock Sentiment Analysis Tool!
