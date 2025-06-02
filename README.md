@@ -1,7 +1,8 @@
 # Stock Sentiment Portfolio Manager
 
 ## Introduction
-This tool is built using the React stack and Yarn package manager to help you analyze stock sentiment using various data sources.
+This tool is built using the React (TypeScript) stack and Yarn package manager for the frontend, and a Python/Flask + PySpark backend, to help you analyze stock sentiment using various data sources.
+
 
 ## Getting Started
 To get started with this project, follow these steps:
@@ -15,15 +16,22 @@ git clone <repository-url>
 cd CFTstocksentiment
 cd frontend
 ```
-3. Install Dependencies: Install the project dependencies using Yarn.
+3. Backend Setup
+```
+cd backend
+cd frontend
+```
+4. Install Dependencies: Install the project dependencies using Yarn.
 ```
 yarn install
+pip install flask flask-cors pyspark sparknlp requests
 ```
-4. Run the Development Server: Start the development server to run the project locally.
+5. Run the Development Server: Start the development server to run the project locally.
 ```
 yarn start
+python app.py
 ```
-5. Access the Application: Open your web browser and navigate to http://localhost:3000 to access the application.
+6. Access the Application: Open your web browser and navigate to http://localhost:3000 to access the application.
 
 ## Project Structure
 The project is structured as follows:
